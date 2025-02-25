@@ -1,0 +1,116 @@
+
+
+body{
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #241f06;
+    width: 100%;
+    margin:auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images\ \(1\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+}
+.box
+{
+  /* background-color: white;
+    border-radius: 15px;
+     box-shadow: 0 0 20px rgba(95, 93, 93, 0.2); 
+    padding: 20px;
+    width: 600px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    float: left; */
+    
+      width: 600px;
+      background-color: white;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255,255,255,0.1);
+      box-shadow: 0 0 40px rgba(8,7,16,0.6);
+      padding: 20px 35px;
+  
+}
+.box h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.box label
+{
+    display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-size: 15px;
+      font-weight: 400 !important;
+      color: black;
+}
+.box input{
+    /* border: 2px solid grey; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+} 
+.box input text{
+    font-size: 40px;
+}
+.box select
+{
+    
+    /* border: 2px solid grey; */
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 15px;
+}
+
+
+button
+{
+ 
+   /* margin: auto !important; */
+    margin-bottom: 10px;
+    font-size: 40px;
+    width: 40%;
+  
+
+}
+
+div.same{
+   display: inline-block;
+   
+}
+input::placeholder{
+color: #464644;
+font-size: 12px;
+}
+
+.login{
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+.login p{
+  font-family:'Poppins',sans-serif ;
+  color: rgb(47, 105, 180);
+  font-size: 18px;
+}
+.login a{
+  text-decoration: none;
+  color: rgb(47, 105, 180);
+}
+
+/* login css */
+
+
+
